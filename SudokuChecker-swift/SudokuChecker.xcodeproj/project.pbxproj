@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32634E0F1BBA5FD600AE312C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32634E0E1BBA5FD600AE312C /* AppDelegate.swift */; };
+		32634E111BBA5FD600AE312C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32634E101BBA5FD600AE312C /* ViewController.swift */; };
+		32634E141BBA5FD600AE312C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32634E121BBA5FD600AE312C /* Main.storyboard */; };
+		32634E161BBA5FD600AE312C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32634E151BBA5FD600AE312C /* Assets.xcassets */; };
+		32634E191BBA5FD600AE312C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32634E171BBA5FD600AE312C /* LaunchScreen.storyboard */; };
+		32634E241BBA5FD600AE312C /* SudokuCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32634E231BBA5FD600AE312C /* SudokuCheckerTests.swift */; };
+		32634E2F1BBB309E00AE312C /* grid1.json in Resources */ = {isa = PBXBuildFile; fileRef = 32634E2E1BBB309E00AE312C /* grid1.json */; settings = {ASSET_TAGS = (); }; };
+		32634E301BBB309E00AE312C /* grid1.json in Resources */ = {isa = PBXBuildFile; fileRef = 32634E2E1BBB309E00AE312C /* grid1.json */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32634E201BBA5FD600AE312C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32634E031BBA5FD600AE312C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32634E0A1BBA5FD600AE312C;
+			remoteInfo = SudokuChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32634E0B1BBA5FD600AE312C /* SudokuChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudokuChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32634E0E1BBA5FD600AE312C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32634E101BBA5FD600AE312C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32634E131BBA5FD600AE312C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32634E151BBA5FD600AE312C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32634E181BBA5FD600AE312C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32634E1A1BBA5FD600AE312C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32634E1F1BBA5FD600AE312C /* SudokuCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudokuCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32634E231BBA5FD600AE312C /* SudokuCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuCheckerTests.swift; sourceTree = "<group>"; };
+		32634E251BBA5FD600AE312C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32634E2E1BBB309E00AE312C /* grid1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = grid1.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32634E081BBA5FD600AE312C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32634E1C1BBA5FD600AE312C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32634E021BBA5FD600AE312C = {
+			isa = PBXGroup;
+			children = (
+				32634E0D1BBA5FD600AE312C /* SudokuChecker */,
+				32634E221BBA5FD600AE312C /* SudokuCheckerTests */,
+				32634E0C1BBA5FD600AE312C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32634E0C1BBA5FD600AE312C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32634E0B1BBA5FD600AE312C /* SudokuChecker.app */,
+				32634E1F1BBA5FD600AE312C /* SudokuCheckerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32634E0D1BBA5FD600AE312C /* SudokuChecker */ = {
+			isa = PBXGroup;
+			children = (
+				32634E0E1BBA5FD600AE312C /* AppDelegate.swift */,
+				32634E101BBA5FD600AE312C /* ViewController.swift */,
+				32634E121BBA5FD600AE312C /* Main.storyboard */,
+				32634E151BBA5FD600AE312C /* Assets.xcassets */,
+				32634E171BBA5FD600AE312C /* LaunchScreen.storyboard */,
+				32634E1A1BBA5FD600AE312C /* Info.plist */,
+				32634E311BBB33EA00AE312C /* Data */,
+			);
+			path = SudokuChecker;
+			sourceTree = "<group>";
+		};
+		32634E221BBA5FD600AE312C /* SudokuCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				32634E231BBA5FD600AE312C /* SudokuCheckerTests.swift */,
+				32634E251BBA5FD600AE312C /* Info.plist */,
+			);
+			path = SudokuCheckerTests;
+			sourceTree = "<group>";
+		};
+		32634E311BBB33EA00AE312C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				32634E2E1BBB309E00AE312C /* grid1.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32634E0A1BBA5FD600AE312C /* SudokuChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32634E281BBA5FD600AE312C /* Build configuration list for PBXNativeTarget "SudokuChecker" */;
+			buildPhases = (
+				32634E071BBA5FD600AE312C /* Sources */,
+				32634E081BBA5FD600AE312C /* Frameworks */,
+				32634E091BBA5FD600AE312C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SudokuChecker;
+			productName = SudokuChecker;
+			productReference = 32634E0B1BBA5FD600AE312C /* SudokuChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32634E1E1BBA5FD600AE312C /* SudokuCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32634E2B1BBA5FD600AE312C /* Build configuration list for PBXNativeTarget "SudokuCheckerTests" */;
+			buildPhases = (
+				32634E1B1BBA5FD600AE312C /* Sources */,
+				32634E1C1BBA5FD600AE312C /* Frameworks */,
+				32634E1D1BBA5FD600AE312C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32634E211BBA5FD600AE312C /* PBXTargetDependency */,
+			);
+			name = SudokuCheckerTests;
+			productName = SudokuCheckerTests;
+			productReference = 32634E1F1BBA5FD600AE312C /* SudokuCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32634E031BBA5FD600AE312C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Joe Swindler";
+				TargetAttributes = {
+					32634E0A1BBA5FD600AE312C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					32634E1E1BBA5FD600AE312C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 32634E0A1BBA5FD600AE312C;
+					};
+				};
+			};
+			buildConfigurationList = 32634E061BBA5FD600AE312C /* Build configuration list for PBXProject "SudokuChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32634E021BBA5FD600AE312C;
+			productRefGroup = 32634E0C1BBA5FD600AE312C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32634E0A1BBA5FD600AE312C /* SudokuChecker */,
+				32634E1E1BBA5FD600AE312C /* SudokuCheckerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32634E091BBA5FD600AE312C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32634E191BBA5FD600AE312C /* LaunchScreen.storyboard in Resources */,
+				32634E2F1BBB309E00AE312C /* grid1.json in Resources */,
+				32634E161BBA5FD600AE312C /* Assets.xcassets in Resources */,
+				32634E141BBA5FD600AE312C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32634E1D1BBA5FD600AE312C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32634E301BBB309E00AE312C /* grid1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32634E071BBA5FD600AE312C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32634E111BBA5FD600AE312C /* ViewController.swift in Sources */,
+				32634E0F1BBA5FD600AE312C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32634E1B1BBA5FD600AE312C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32634E241BBA5FD600AE312C /* SudokuCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32634E211BBA5FD600AE312C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32634E0A1BBA5FD600AE312C /* SudokuChecker */;
+			targetProxy = 32634E201BBA5FD600AE312C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32634E121BBA5FD600AE312C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32634E131BBA5FD600AE312C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32634E171BBA5FD600AE312C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32634E181BBA5FD600AE312C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32634E261BBA5FD600AE312C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32634E271BBA5FD600AE312C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32634E291BBA5FD600AE312C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SudokuChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.SudokuChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32634E2A1BBA5FD600AE312C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SudokuChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.SudokuChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32634E2C1BBA5FD600AE312C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SudokuCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.SudokuCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SudokuChecker.app/SudokuChecker";
+			};
+			name = Debug;
+		};
+		32634E2D1BBA5FD600AE312C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SudokuCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.SudokuCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SudokuChecker.app/SudokuChecker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32634E061BBA5FD600AE312C /* Build configuration list for PBXProject "SudokuChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32634E261BBA5FD600AE312C /* Debug */,
+				32634E271BBA5FD600AE312C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32634E281BBA5FD600AE312C /* Build configuration list for PBXNativeTarget "SudokuChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32634E291BBA5FD600AE312C /* Debug */,
+				32634E2A1BBA5FD600AE312C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32634E2B1BBA5FD600AE312C /* Build configuration list for PBXNativeTarget "SudokuCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32634E2C1BBA5FD600AE312C /* Debug */,
+				32634E2D1BBA5FD600AE312C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32634E031BBA5FD600AE312C /* Project object */;
+}
